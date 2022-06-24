@@ -5,7 +5,7 @@ import HomeScreen from './pages/HomeScreen';
 function App() {
   return (
     <BrowserRouter>
-      <div>
+      <div className="container">
         <header className="header">
           <h1>PinkBike Articles</h1>
         </header>

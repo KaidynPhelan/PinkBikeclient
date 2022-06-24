@@ -1,0 +1,11 @@
+.container {
+  margin: 1rem;
+}
+
+.header {
+  background-color: #e36414;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  height: 5rem;
+}
