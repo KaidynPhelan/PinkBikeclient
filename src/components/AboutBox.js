@@ -12,7 +12,7 @@ function AboutBox() {
       </Card.Text>
       <Card.Subtitle className="mb-2 text-muted">Link to Original Site:</Card.Subtitle>
       <div className='linkDiv'>
-        <Card.Link href='https://www.pinkbike.com/'>Original Website</Card.Link>
+        <Card.Link href='https://www.pinkbike.com/'>Pinkbike.com</Card.Link>
       </div>
 
       <Card.Subtitle className="mb-2 text-muted">Links to Repositries:</Card.Subtitle>
@@ -20,13 +20,7 @@ function AboutBox() {
           <Card.Link href='https://github.com/KaidynPhelan/PinkBikeclient'>Frontend Repository</Card.Link>
           <Card.Link href='https://github.com/KaidynPhelan/PinkbikeAPI'>Backend Repository</Card.Link>
         </div>
-
-
-
-
-
-
-    </Card>
+      </Card>
   );
 }
 
