@@ -2,11 +2,13 @@ import dummydata from '../dummydata.json';
 
 
 
-function Article() {
+function Article(articles) {
     return(
         <div>
-            <p>Test</p>
+            
         </div>
+
+
     )
 }
 
