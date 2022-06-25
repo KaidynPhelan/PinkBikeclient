@@ -4,9 +4,10 @@ import dummydata from '../dummydata.json';
 function HomeScreen() {
   return (
     <div>
-      {dummydata.map((article) => {
+      <AboutBox />
+      {/* {dummydata.map((article) => {
         return <div>{article.title}</div>;
-      })}
+      })} */}
     </div>
   );
 }

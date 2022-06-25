@@ -1,11 +1,29 @@
-.container {
-  margin: 1rem;
+.App {
+  text-align: center;
 }
 
 .header {
+  margin: 1rem;
   background-color: #e36414;
-  border-radius: 25px;
+  min-height: 10vh;
   display: flex;
-  align-items: center;
-  height: 5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 2rem;
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  border-radius: 25px;
 }
+
+.footer{
+  background-color: #0f4c5c;
+  text-align: center;
+  color: white;
+  padding: 0.5rem;
+  margin: 1rem;
+  border-radius: 25px;
+}
+
+
