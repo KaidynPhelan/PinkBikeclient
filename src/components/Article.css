@@ -1,0 +1,23 @@
+.Card{
+    margin: 1rem;
+    padding: 1rem;
+    width: 60rem;
+    border-radius: 25px;
+    border: 2px solid #0f4c5c;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.BackCard {
+    background-color: #e36414;
+    padding: 1rem;
+    margin: 3rem;
+    width: 65rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+
+
+    
+}

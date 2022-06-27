@@ -14,3 +14,11 @@ body {
   main {
     flex: 1;
   }
+
+  .ArticleHeader {
+    margin: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #e36414;
+    border-radius: 25px;
+    text-align: center;
+  }

@@ -4,18 +4,21 @@ import Article from '../components/Article';
 import { Row, Col, Button } from 'react-bootstrap';
 import { useEffect, useState } from 'react';
 import exportFromJSON from 'export-from-json';
+import React from 'react';
 
 function HomeScreen() {
+
   const [Articles, setArticles] = useState([]);
 
   useEffect(() => {
-    fetch('/pinkbikearticles')
-      .then((response) => {
-        return response.json();
-      })
-      .then((result) => {
-        setArticles(result);
-      });
+    setArticles(dummydata);
+    // fetch('/pinkbikearticles')
+    //   .then((response) => {
+    //     return response.json();
+    //   })
+    //   .then((result) => {
+    //     setArticles(result);
+    //   });
   });
 
   function ExportXML() {
@@ -28,13 +31,13 @@ function HomeScreen() {
   return (
     <div>
       <AboutBox />
-      <h1>Articles</h1>
+      <h1 className='ArticleHeader'>Articles</h1>
       <div className="articles">
-        <Row>
+        <div>
           {Articles.map((article, index) => (
-            <Article key={index} article={article}></Article>
-          ))}
-        </Row>
+              <Article key={index} article={article}></Article>
+            ))}
+        </div>
         <div>
           <Button onClick={ExportXML}>Export to XML</Button>
         </div>

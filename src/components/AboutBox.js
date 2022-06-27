@@ -1,5 +1,6 @@
 import './AboutBox.css';
 import Card from 'react-bootstrap/Card';
+import React from 'react';
 
 function AboutBox() {
   return (
