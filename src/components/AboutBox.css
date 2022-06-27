@@ -1,3 +1,5 @@
+/* CSS Styling for AboutBox.js */
+
 .Card{
   margin-left: 1rem;
   padding: 1rem;
@@ -8,7 +10,8 @@
 }
 
 .linkDiv{
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
   text-decoration: none;
   padding-bottom: 1rem;
 
