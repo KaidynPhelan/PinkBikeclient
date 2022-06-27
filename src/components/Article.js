@@ -1,15 +1,10 @@
-import dummydata from '../dummydata.json';
-
-
-
-function Article(articles) {
-    return(
-        <div>
-            
-        </div>
-
-
-    )
+function Article({ article }) {
+  return (
+    <div>
+      <p>{article.title}</p>
+      <p>{article.description}</p>
+    </div>
+  );
 }
 
 export default Article;
