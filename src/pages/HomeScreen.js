@@ -13,13 +13,13 @@ function HomeScreen() {
   const [loading, setLoading] = useState(false);
 
     //Calling The Inforamtion from backend API or dummydata.js
-    useEffect(() => {
-      setLoading(true);
+  useEffect(() => {
+    setLoading(true);
 
-    //DummyData, Uncomment to call data from dummydata.json
+    // DummyData, Uncomment to call data from dummydata.json
     // setArticles(dummydata);
 
-    //Calling data from API
+    // Calling data from API
     fetch('https://pinbikeapi.azurewebsites.net/pinkbikearticles') 
       .then((response) => {
         return response.json();
@@ -42,19 +42,19 @@ function HomeScreen() {
   return (
     <div>
       <AboutBox exportXML = {ExportXML} />
-        <h1 className='header'>Articles</h1>
-        {
-          loading ?
-            <div className="lds-ring"><div></div><div></div><div></div><div></div></div>
-          :
-            <div className="articles">
-            {
-              Articles.map((article, index) => (
-                <Article key={index} article={article}></Article>
-              ))
-            }
-            </div>
-        }
+      <h1 className='header'>Articles</h1>
+      {
+        loading ?
+          <div className="lds-ring"><div></div><div></div><div></div><div></div></div>
+        :
+          <div className="articles">
+          {
+            Articles.map((article, index) => (
+              <Article key={index} article={article}></Article>
+            ))
+          }
+          </div>
+      }
     </div>
   );
 }
