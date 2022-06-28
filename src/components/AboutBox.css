@@ -1,11 +1,10 @@
 /* CSS Styling for AboutBox.js */
 
-.linkDiv{
+.article-link{
   display: flex;
   justify-content: space-between;
   text-decoration: none;
   padding-bottom: 1rem;
-
 }
 
 

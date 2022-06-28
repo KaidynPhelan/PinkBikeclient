@@ -42,7 +42,7 @@ function HomeScreen() {
   return (
     <div>
       <AboutBox exportXML = {ExportXML} />
-        <h1 className='articleHeader'>Articles</h1>
+        <h1 className='header'>Articles</h1>
         {
           loading ?
             <div className="lds-ring"><div></div><div></div><div></div><div></div></div>

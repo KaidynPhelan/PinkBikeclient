@@ -14,7 +14,6 @@ function AboutBox({exportXML}) {
       </Card.Header>
 
       <Card.Body>
-
         <Card.Subtitle className="mb-2 text-muted">PinkBike.com coding challenge from Automaton</Card.Subtitle>
         <Card.Text>
           This project involved creating an API to scrape the required information from current Pinkbike.com articles
@@ -23,12 +22,12 @@ function AboutBox({exportXML}) {
         </Card.Text>
         
         <Card.Subtitle className="mb-2 text-muted">Link to Original Site:</Card.Subtitle>
-        <div className='linkDiv'>
+        <div className='article-link'>
           <Card.Link href='https://www.pinkbike.com/'>Pinkbike.com</Card.Link>
         </div>
 
         <Card.Subtitle className="mb-2 text-muted">Links to Repositories:</Card.Subtitle>
-        <div className='linkDiv'>
+        <div className='article-link'>
           <div>
             <Card.Link href='https://github.com/KaidynPhelan/PinkBikeclient'>Frontend Repository</Card.Link>
             <Card.Link href='https://github.com/KaidynPhelan/PinkbikeAPI'>Backend Repository</Card.Link>
