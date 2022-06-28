@@ -2,11 +2,11 @@
 
 body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-      sans-serif;
+    font-family: 'Roboto' !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background: rgb(231,130,36);
+    background: linear-gradient(90deg, rgba(231,130,36,1) 0%, rgba(226,87,0,1) 100%);
   }
   
   .site-container {
@@ -18,9 +18,8 @@ body {
   }
 
   .ArticleHeader {
-    margin: 1rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #e36414;
+    margin-top: 2rem;
+    color: white;
     border-radius: 25px;
     text-align: center;
   }

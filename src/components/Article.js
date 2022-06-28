@@ -6,30 +6,35 @@ import Card from 'react-bootstrap/Card';
 
 function Article({ article }) {
 
+  // Function to clean data recieved from backend
   function cleanDetails (encoded) {
     return encoded.replace(/&amp;/g, '&');
   }
 
   return (
-    <Card className='BackCard'>
-        <Card className='Card'>
-          <Card.Title >{cleanDetails(article.title)}</Card.Title>
+      <Card className='Card'>
+        <Card.Header className="article-header">
+          <Card.Title style={{  margin: '0' }}>{cleanDetails(article.title)}</Card.Title>
 
-            <Card.Subtitle>Description:</Card.Subtitle>
-              <Card.Text>{cleanDetails(article.description)}</Card.Text>
+          {/* Create Video Pill if Article contains a Video Link */}
+          {article.hasVideo && 
+            <a className = "VideoPill" href={article.videoUrl}>
+              Video
+            </a>
+          }
+          
+        </Card.Header>
+        <Card.Body>
+          <Card.Subtitle className="mb-2 text-muted">Description:</Card.Subtitle>
+          <Card.Text>{cleanDetails(article.description)}</Card.Text>
 
-            <Card.Subtitle>Published Date:</Card.Subtitle>
-              <Card.Text>{article.pubDate}</Card.Text>
+          <Card.Subtitle className="mb-2 text-muted">Published Date:</Card.Subtitle>
+          <Card.Text>{article.pubDate}</Card.Text>
 
-            <Card.Subtitle>Article URL</Card.Subtitle>
-              <Card.Text><a href={article.articleUrl}>{article.articleUrl}</a></Card.Text>
-                {article.hasVideo && 
-                    <a className = "VideoPill" href={article.videoUrl}>
-                      Video
-                    </a>
-                }
-        </Card>
-    </Card>
+          <Card.Subtitle className="mb-2 text-muted">Article URL</Card.Subtitle>
+          <Card.Text><a href={article.articleUrl}>{article.articleUrl}</a></Card.Text>
+        </Card.Body>
+      </Card>
   );
 }
 

@@ -1,30 +1,28 @@
+//App.js Called from Index Main DOM page
+
 import './App.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import HomeScreen from './pages/HomeScreen';
-import { Container, Navbar } from 'react-bootstrap';
-import {LinkContainer} from 'react-router-bootstrap';
 import React from 'react';
 
 function App() {
   return (
     <BrowserRouter>
       <div className="d-flex flex-column site-container">
+
+        {/* Header */}
         <header className = "header">
-        <Navbar>
-          <Container>
-            <LinkContainer to = "/">
-                <h1>PinkBike Articles</h1>
-              </LinkContainer>
-            </Container>
-          </Navbar>
-
-
+          PinkBike Articles
         </header>
+
+        {/* Main Content */}
         <main>
           <HomeScreen></HomeScreen>
         </main>
+
+        {/* Footer */}
         <footer>
-        <div className="footer">PinkBike Coding Challenge: Automaton Job Opportuniy </div>
+          <div className="footer">PinkBike Coding Challenge: Automaton Job Opportunity</div>
         </footer>
       </div>
     </BrowserRouter>

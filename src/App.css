@@ -4,26 +4,17 @@
 }
 
 .header {
-  margin: 1rem;
-  background-color: #e36414;
-  min-height: 10vh;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
+  padding: 0.5rem;
   font-size: 2rem;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
-  border-radius: 25px;
+  text-align: center;
+  font-weight: 700;
 }
 
 .footer{
-  background-color: #0f4c5c;
   text-align: center;
   color: white;
   padding: 0.5rem;
-  margin: 1rem;
-  border-radius: 25px;
 }
 
 

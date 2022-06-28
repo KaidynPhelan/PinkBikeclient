@@ -1,14 +1,5 @@
 /* CSS Styling for AboutBox.js */
 
-.Card{
-  margin-left: 1rem;
-  padding: 1rem;
-  width: 60rem;
-  border-radius: 25px;
-  border: 2px solid #0f4c5c;
-  box-sizing: border-box;
-}
-
 .linkDiv{
   display: flex;
   justify-content: space-between;
