@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/PinkBikeclient/precache-manifest.6c126716b7f8488a9f3a3a942c5c4acf.js"
+  "/PinkBikeclient/precache-manifest.b503ad37eb1f4ab2762e7bd923afd14a.js"
 );
 
 workbox.clientsClaim();

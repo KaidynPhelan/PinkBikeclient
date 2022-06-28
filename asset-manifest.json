@@ -1,15 +1,15 @@
 {
-  "main.css": "/PinkBikeclient/static/css/main.0bba9d50.chunk.css",
-  "main.js": "/PinkBikeclient/static/js/main.a1927f0a.chunk.js",
-  "main.js.map": "/PinkBikeclient/static/js/main.a1927f0a.chunk.js.map",
+  "main.css": "/PinkBikeclient/static/css/main.3ee5a859.chunk.css",
+  "main.js": "/PinkBikeclient/static/js/main.3d007aaf.chunk.js",
+  "main.js.map": "/PinkBikeclient/static/js/main.3d007aaf.chunk.js.map",
   "static/css/1.26062289.chunk.css": "/PinkBikeclient/static/css/1.26062289.chunk.css",
   "static/js/1.51b2605b.chunk.js": "/PinkBikeclient/static/js/1.51b2605b.chunk.js",
   "static/js/1.51b2605b.chunk.js.map": "/PinkBikeclient/static/js/1.51b2605b.chunk.js.map",
   "runtime~main.js": "/PinkBikeclient/static/js/runtime~main.4c747f3e.js",
   "runtime~main.js.map": "/PinkBikeclient/static/js/runtime~main.4c747f3e.js.map",
-  "static/css/main.0bba9d50.chunk.css.map": "/PinkBikeclient/static/css/main.0bba9d50.chunk.css.map",
+  "static/css/main.3ee5a859.chunk.css.map": "/PinkBikeclient/static/css/main.3ee5a859.chunk.css.map",
   "static/css/1.26062289.chunk.css.map": "/PinkBikeclient/static/css/1.26062289.chunk.css.map",
   "index.html": "/PinkBikeclient/index.html",
-  "precache-manifest.6c126716b7f8488a9f3a3a942c5c4acf.js": "/PinkBikeclient/precache-manifest.6c126716b7f8488a9f3a3a942c5c4acf.js",
+  "precache-manifest.b503ad37eb1f4ab2762e7bd923afd14a.js": "/PinkBikeclient/precache-manifest.b503ad37eb1f4ab2762e7bd923afd14a.js",
   "service-worker.js": "/PinkBikeclient/service-worker.js"
 }
