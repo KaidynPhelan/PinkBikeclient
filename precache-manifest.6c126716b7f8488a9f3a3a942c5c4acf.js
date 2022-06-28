@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "0692bcd9cdc6e4c537f5",
-    "url": "/PinkBikeclient/static/css/main.603c1cc3.chunk.css"
+    "revision": "a1927f0a1e08362aebd9",
+    "url": "/PinkBikeclient/static/css/main.0bba9d50.chunk.css"
   },
   {
-    "revision": "0692bcd9cdc6e4c537f5",
-    "url": "/PinkBikeclient/static/js/main.0692bcd9.chunk.js"
+    "revision": "a1927f0a1e08362aebd9",
+    "url": "/PinkBikeclient/static/js/main.a1927f0a.chunk.js"
   },
   {
     "revision": "51b2605b53d4cf0c258d",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/PinkBikeclient/static/js/runtime~main.4c747f3e.js"
   },
   {
-    "revision": "8d076b4eadbbc687d6912fb0f38c4416",
+    "revision": "1530dbb441e94f7d4fe42cb57189ab78",
     "url": "/PinkBikeclient/index.html"
   }
 ];
