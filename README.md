@@ -1,7 +1,7 @@
 ## About PinkBikeclient: [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 Project Task for Automaton Job Interview. 
 
-![Image of Application](https://github.com/KaidynPhelan/PinkBikeclient/blob/4eb3c07fe781f2b2dc29f690ca7fd13bc0a4b2f2/images/readme.png)
+![Image of Application](https://github.com/KaidynPhelan/PinkBikeclient/blob/1d42761bc515a50e21b63f07898715cd9d78d684/images/readme.png?raw=true)
 
 ### Table of Contents
 
