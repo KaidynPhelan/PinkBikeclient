@@ -19,7 +19,7 @@ function AboutBox({exportXML}) {
           <div className='linkDiv'>
             <Card.Link href='https://www.pinkbike.com/'>Pinkbike.com</Card.Link>
           </div>
-        <Card.Subtitle className="mb-2 text-muted">Links to Repositries:</Card.Subtitle>
+        <Card.Subtitle className="mb-2 text-muted">Links to Repositories:</Card.Subtitle>
           <div className='linkDiv'>
             <div>
               <Card.Link href='https://github.com/KaidynPhelan/PinkBikeclient'>Frontend Repository</Card.Link>
