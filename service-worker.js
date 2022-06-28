@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/pinkbikeclient/precache-manifest.7fd8fddd3590c307189e1ce4fd4120e7.js"
+  "/PinkBikeclient/precache-manifest.86f5a133ddd0dd411c4fca1471b548d9.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/pinkbikeclient/index.html", {
+workbox.routing.registerNavigationRoute("/PinkBikeclient/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
