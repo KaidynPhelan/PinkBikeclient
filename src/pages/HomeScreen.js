@@ -15,16 +15,17 @@ function HomeScreen() {
     useEffect(() => {
 
     //DummyData, Uncomment to call data from dummydata.json
-    setArticles(dummydata);
+    // setArticles(dummydata);
 
     //Calling data from API
-    // fetch('/pinkbikearticles')
-    //   .then((response) => {
-    //     return response.json();
-    //   })
-    //   .then((result) => {
-    //     setArticles(result);
-    //   });
+    fetch('https://pinbikeapi.azurewebsites.net/pinkbikearticles') 
+      .then((response) => {
+        return response.json();
+      })
+      .then((result) => {
+        setArticles(result);
+      })
+      .catch(error => (console.log(error)));
   });
 
   //Function to Export Articles to XML
