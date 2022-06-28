@@ -21,9 +21,7 @@ function App() {
 
         </header>
         <main>
-          <Routes>
-            <Route path="/" element={<HomeScreen />} />
-          </Routes>
+          <HomeScreen></HomeScreen>
         </main>
         <footer>
         <div className="footer">PinkBike Coding Challenge: Automaton Job Opportuniy </div>
