@@ -1,6 +1,6 @@
 /* CSS Styling for Article.js */
 
-.Card{
+.card{
     width: 70%;
     margin: 1rem;
     margin-left: auto;
@@ -8,7 +8,7 @@
     box-shadow: 2.5px 7px 10px rgba(0, 0, 0, 0.393);
 }
 
-.VideoPill {
+.videoPill {
     border-radius: 1.5rem;
     line-height: 1.5rem;
     font-size: 1rem;
@@ -23,11 +23,11 @@
     text-decoration: none;  
 }
 
-.VideoPill:hover {
+.videoPill:hover {
     cursor: pointer;
 }
 
-.article-header {
+.article-Header {
     display: flex;
     justify-content: space-between;
     flex-direction: row;

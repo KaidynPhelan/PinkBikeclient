@@ -13,12 +13,12 @@ function Article({ article }) {
 
   return (
       <Card className='Card'>
-        <Card.Header className="article-header">
+        <Card.Header className="article-Header">
           <Card.Title style={{  margin: '0' }}>{cleanDetails(article.title)}</Card.Title>
 
           {/* Create Video Pill if Article contains a Video Link */}
           {article.hasVideo && 
-            <a className = "VideoPill" href={article.videoUrl}>
+            <a className = "videoPill" href={article.videoUrl}>
               Video
             </a>
           }

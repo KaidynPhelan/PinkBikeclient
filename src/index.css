@@ -17,7 +17,7 @@ body {
     flex: 1;
   }
 
-  .ArticleHeader {
+  .articleHeader {
     margin-top: 2rem;
     color: white;
     border-radius: 25px;
@@ -39,10 +39,10 @@ body {
     width: 64px;
     height: 64px;
     margin: 8px;
-    border: 8px solid #e36414;
+    border: 8px solid #ffffff;
     border-radius: 50%;
     animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-    border-color: #e36414 transparent transparent transparent;
+    border-color: #ffffff transparent transparent transparent;
   }
   .lds-ring div:nth-child(1) {
     animation-delay: -0.45s;
